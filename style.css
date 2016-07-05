@@ -1,0 +1,153 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 auto;
+}
+/************* NAME SECTION *************/
+
+#nameDiv{
+  height: 300px;
+  color: white;
+  font-size: 4em;
+  padding-top: 2em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+/************* ABOUT ME SECTION *************/
+
+#aboutMeDiv{
+  font-size: 2em;
+  padding: 5% 10%;
+  text-align: left;
+}
+
+/************* PLACE TO VISIT SECTION *************/
+#visitHeader {
+  font-size: 3em;
+  text-align: left;
+  padding-left: 10%;
+  margin: 1em 0 1em 0;
+}
+#visitDiv{
+  font-size: 2em;
+  height: 400px;
+  text-align: left;
+}
+
+#visitDiv h2 {
+}
+
+#visitDiv iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/************* WHAT TECH MEANS TO ME SECTION *************/
+
+
+#techDiv{
+  padding-top: 2em;
+  font-size: 2em;
+  height: 200px;
+  text-align: left;
+  margin-bottom: 2em;
+  padding-left: 10%;
+  margin: 0 0 0 0;
+}
+
+
+/************* VIDEO SECTION *************/
+
+#videoDiv{
+  padding: 1em 0 3em 0;
+}
+
+#videoDiv h2{
+  margin-bottom: 1em;
+  font-size: 3em;
+}
+
+/************* FAVORITE SITES SECTION *************/
+
+#faveSiteDiv {
+  padding:1em 0;
+  font-size: 2em;
+}
+
+#faveSiteDiv h2 {
+  margin-bottom: 1em;
+}
+
+#faveSiteDiv a {
+  display: block;
+}
+
+/************* COLOR CHANGE SECTION *************/
+
+#colorChangeDiv button{
+  height: 60px;
+  width: 140px;
+  margin-bottom: 2em;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  color: white;
+}
+
+#colorChangeDiv h2{
+padding-top: 1em;
+padding-bottom: 1em;
+}
+
+#red{
+  background-color: red;
+}
+
+#blue{
+  background-color: blue;
+}
+
+#green{
+  background-color: green;
+}
+
+#yellow{
+  background-color: yellow;
+}
+
+/************* FOOTER SECTION *************/
+
+
+#footerDiv{
+  background-color: #d9d9d9;
+  text-align: center;
+
+}
+
+#footerDiv a{
+    text-decoration: none;
+}
+
+#footerDiv h3{
+	color:  #ffffff;
+	font: normal 24px "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	margin: 0 0 10px;
+	font-weight: lighter;
+}
+
+#footerDiv h3 span{
+		font: normal 24px 'futura', cursive;
+	color:  #00bfff;
+}
+
+#footerDiv p{
+  padding-bottom: 1em;
+}
